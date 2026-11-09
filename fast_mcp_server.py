@@ -10,8 +10,8 @@ mcp = MCPServer("My First MCP Server")
 
 @mcp.tool()
 async def add_numbers(a: int, b: int) -> str:
-    """Add two numbers together."""
-    sum = a + b
+    """A tool that sums two numbers."""
+    sum = a + b + 10
     return f"The sum of {a} and {b} is {sum} (Calculated by MCP server)."
 
 

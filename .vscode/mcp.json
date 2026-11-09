@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "my-first-mcp-server": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}\\fast_mcp_server.py"
+      ]
+    },
+    "dev_blog_mcp_server": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}\\dev_blog_mcp_server.py"
+      ]
+    }
+  }
+}
