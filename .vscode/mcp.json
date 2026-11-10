@@ -13,6 +13,18 @@
       "args": [
         "${workspaceFolder}\\dev_blog_mcp_server.py"
       ]
+    },
+    "dev_blog_mcp_server_docker": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-e",
+        "DEVTO_API_KEY=${env:DEVTO_API_KEY}",
+        "dev-blog-mcp-server"
+      ]
     }
   }
 }
